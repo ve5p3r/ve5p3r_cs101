@@ -1,0 +1,4 @@
+/hangman-game
+/build/
+*.o
+.idea/

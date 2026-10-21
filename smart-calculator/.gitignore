@@ -1,0 +1,4 @@
+/smart-calculator
+/build/
+*.o
+.idea/

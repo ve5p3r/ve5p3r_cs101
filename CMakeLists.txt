@@ -1,0 +1,14 @@
+cmake_minimum_required(VERSION 3.16)
+project(vesper_cs101 LANGUAGES C)
+
+set(CMAKE_C_STANDARD 11)
+set(CMAKE_C_STANDARD_REQUIRED ON)
+set(CMAKE_C_EXTENSIONS OFF)
+
+add_executable(smart_calculator smart-calculator/smart_calculator.c)
+add_executable(grade_calculator grade-calculator/grade_calculator.c)
+add_executable(number_guessing_game number-guessing-game/number_guessing_game.c)
+add_executable(tic_tac_toe tic-tac-toe/tic_tac_toe.c)
+add_executable(hangman_game hangman-game/hangman_game.c)
+add_executable(voting_example voting-project/voting_example.c)
+add_executable(pointer_classwork pointer-classwork/pointer_classwork.c)
