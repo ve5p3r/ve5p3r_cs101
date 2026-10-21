@@ -1,6 +1,6 @@
 # CS101 C Exercises
 
-Seven C programming exercises in one CMake project.
+Seven CS101 project exercises and an additional pointer exercise in one CMake project.
 
 | Directory | Program |
 | --- | --- |
@@ -10,6 +10,7 @@ Seven C programming exercises in one CMake project.
 | `tic-tac-toe` | Two-player tic-tac-toe |
 | `hangman-game` | Hangman (fixed word: CAT) |
 | `voting-project` | Voting terminal for four candidates |
+| `hotel-management` | Room availability, check-in, checkout, and billing |
 | `pointer-classwork` | Pointer access, assignment, and swapping |
 
 ## Build and run
@@ -23,7 +24,8 @@ cmake --build build
 ```
 
 Other executables: `smart_calculator`, `grade_calculator`,
-`number_guessing_game`, `tic_tac_toe`, `hangman_game`, and `voting_example`.
+`number_guessing_game`, `tic_tac_toe`, `hangman_game`, `voting_example`,
+and `hotel_management`.
 
 For CLion, open this repository's root directory as a CMake project.
 Individual exercise READMEs also include standalone compiler commands.
