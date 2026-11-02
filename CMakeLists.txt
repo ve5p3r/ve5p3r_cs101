@@ -13,3 +13,5 @@ add_executable(hangman_game hangman-game/hangman_game.c)
 add_executable(voting_example voting-project/voting_example.c)
 add_executable(pointer_classwork pointer-classwork/pointer_classwork.c)
 add_executable(hotel_management hotel-management/hotel_management.c)
+
+add_executable(gradebook gradebook/gradebook.c)

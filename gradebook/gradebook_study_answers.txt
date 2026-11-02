@@ -1,0 +1,26 @@
+CS101 self-check answers
+
+Part 1
+
+1. &x gives the address of x. *p gets the value at the address p points to.
+
+2. They both get the third item in the array. p points to the start of arr, so *(p + 2) gets the same value as arr[2].
+
+3. A pointer moves one item at a time. For an int, that is usually 4 bytes. For a char, it is 1 byte.
+
+4. scanf needs to know where to put the number. &x gives it the address of x so it can change it.
+
+5. The first row is stored first, then the second row:
+   g[0][0], g[0][1], g[0][2], g[1][0], g[1][1], g[1][2].
+
+6. It needs the number of columns to know where each row ends and the next one starts.
+
+Part 2
+
+1. malloc returns a pointer to the memory it set aside. Check that it is not NULL before using it, because NULL means the allocation failed.
+
+2. The memory stays allocated even after we are done with it. If we keep doing that, the program can run out of available memory.
+
+3. It keeps calling itself without stopping. Eventually it can run out of resources and crash.
+
+4. Add the first number to the sum of the rest of the array. Keep doing that with the remaining numbers. When there are no numbers left, return 0 to stop the recursive loop.
